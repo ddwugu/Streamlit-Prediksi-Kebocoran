@@ -1,18 +1,7 @@
 import pickle
 import streamlit as st
 
-# Set background image
-st.markdown(
-    """
-    <style>
-        body {
-            background-image: url('bg1.png');
-            background-size: cover;
-        }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+
 
 Leak = pickle.load(open('Prediksi_Kebocoran_Pipa.sav', 'rb'))
 
